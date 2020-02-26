@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Interaction with checkbox form elements</description>
+   <name>TC-4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ebd76ca-83cb-4422-b50f-7b712cbf6c44</testCaseGuid>
+</TestCaseEntity>

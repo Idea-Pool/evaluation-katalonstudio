@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestCasesForEvaluation" time="61.57" tests="7" failures="0" errors="0">
+   <testsuite name="TestCasesForEvaluation" tests="7" failures="0" errors="0" time="61.57" timestamp="2020-02-23 15:09:56" hostname="Dora_Vereb - EPHUDEBW0132.budapest.epam.com" id="Test Suites/TestCasesForEvaluation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dora_vereb\\Katalon Studio\\Web testing evaluation\\Reports\\20200223_150954\\TestCasesForEvaluation\\20200223_150954"/>
+         <property name="logFiles" value="C:\\Users\\dora_vereb\\Katalon Studio\\Web testing evaluation\\Reports\\20200223_150954\\TestCasesForEvaluation\\20200223_150954\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dora_Vereb - EPHUDEBW0132.budapest.epam.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Edge 18"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="6A23E4BB-E849-4613-AF42-1792E65B5274"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC-1" time="5.187" classname="Test Cases/TC-1" status="PASSED">
+         <system-out><![CDATA[2020-02-23 15:09:59 - [TEST_CASE][PASSED] - Test Cases/TC-1: Test Cases/TC-1
+
+2020-02-23 15:09:59 - [TEST_STEP][PASSED] - navigateToUrl(homePage): Navigate to 'https://angular.io' successfully
+
+2020-02-23 15:10:01 - [MESSAGE][PASSED] - Navigate to 'https://angular.io' successfully
+
+2020-02-23 15:10:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("AngularHomePage/AngularLogoAtTheTop")): Object 'Object Repository/AngularHomePage/AngularLogoAtTheTop' is visible
+
+2020-02-23 15:10:01 - [MESSAGE][PASSED] - Object 'Object Repository/AngularHomePage/AngularLogoAtTheTop' is visible
+
+2020-02-23 15:10:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("AngularHomePage/AngularLogoInHeroSection")): Object 'Object Repository/AngularHomePage/AngularLogoInHeroSection' is visible
+
+2020-02-23 15:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/AngularHomePage/AngularLogoInHeroSection' is visible
+
+2020-02-23 15:10:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("AngularHomePage/HeroHeadline"), "One framework.
+Mobile & desktop."): Actual text and expected text of test object 'Object Repository/AngularHomePage/HeroHeadline' are matched.
+
+2020-02-23 15:10:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AngularHomePage/HeroHeadline' are matched.
+
+2020-02-23 15:10:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("AngularHomePage/GetStartedButton")): Object 'Object Repository/AngularHomePage/GetStartedButton' is visible
+
+2020-02-23 15:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/AngularHomePage/GetStartedButton' is visible
+
+2020-02-23 15:10:02 - [TEST_STEP][PASSED] - click(findTestObject("AngularHomePage/GetStartedButton")): Object: 'Object Repository/AngularHomePage/GetStartedButton' is clicked on
+
+2020-02-23 15:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AngularHomePage/GetStartedButton' is clicked on
+
+2020-02-23 15:10:03 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), startPage, false): Actual text 'https://angular.io/start' and expected text 'https://angular.io/start' are matched 
+
+2020-02-23 15:10:03 - [MESSAGE][PASSED] - Current window's url is: 'https://angular.io/start'
+
+2020-02-23 15:10:03 - [MESSAGE][PASSED] - Actual text 'https://angular.io/start' and expected text 'https://angular.io/start' are matched 
+
+2020-02-23 15:10:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("AngularStartPage/ContentTitle"), contentTitle): Actual text and expected text of test object 'Object Repository/AngularStartPage/ContentTitle' are matched.
+
+2020-02-23 15:10:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AngularStartPage/ContentTitle' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2" time="37.068" classname="Test Cases/TC-2" status="PASSED">
+         <system-out><![CDATA[2020-02-23 15:10:04 - [TEST_CASE][PASSED] - Test Cases/TC-2: Test Cases/TC-2
+
+2020-02-23 15:10:04 - [TEST_STEP][PASSED] - navigateToUrl(homePage): Navigate to 'https://angular.io' successfully
+
+2020-02-23 15:10:05 - [MESSAGE][PASSED] - Navigate to 'https://angular.io' successfully
+
+2020-02-23 15:10:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("AngularHomePage/SearchBar")): Object 'Object Repository/AngularHomePage/SearchBar' is visible
+
+2020-02-23 15:10:05 - [MESSAGE][PASSED] - Object 'Object Repository/AngularHomePage/SearchBar' is visible
+
+2020-02-23 15:10:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("AngularHomePage/SearchBar"), ""): Actual text and expected text of test object 'Object Repository/AngularHomePage/SearchBar' are matched.
+
+2020-02-23 15:10:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AngularHomePage/SearchBar' are matched.
+
+2020-02-23 15:10:06 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("AngularHomePage/SearchBar"), "placeholder", "Search", 0): Object 'Object Repository/AngularHomePage/SearchBar' has attribute 'placeholder' with value 'Search'
+
+2020-02-23 15:10:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:06 - [MESSAGE][PASSED] - Object 'Object Repository/AngularHomePage/SearchBar' has attribute 'placeholder' with value 'Search'
+
+2020-02-23 15:10:06 - [TEST_STEP][PASSED] - click(findTestObject("AngularHomePage/SearchBar")): Object: 'Object Repository/AngularHomePage/SearchBar' is clicked on
+
+2020-02-23 15:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AngularHomePage/SearchBar' is clicked on
+
+2020-02-23 15:10:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("AngularHomePage/SearchBar"), "directive"): Keys 'directive' sent to object: 'Object Repository/AngularHomePage/SearchBar'
+
+2020-02-23 15:10:07 - [MESSAGE][PASSED] - Keys 'directive' sent to object: 'Object Repository/AngularHomePage/SearchBar'
+
+2020-02-23 15:10:07 - [TEST_STEP][PASSED] - verifyElementVisible(searchResultByTextAndSection("api", "Directive")): null
+
+2020-02-23 15:10:07 - [TEST_STEP][PASSED] - xpathString = //div[contains(@class,"search-area")][h3[contains(.,"$section")]]//a[contains(@class,"search-result-item")]/span[.="$result"]: null
+
+2020-02-23 15:10:07 - [TEST_STEP][PASSED] - searchResult = new com.kms.katalon.core.testobject.TestObject(SearchResult): null
+
+2020-02-23 15:10:07 - [TEST_STEP][PASSED] - searchResult.addProperty("xpath", EQUALS, xpathString): null
+
+2020-02-23 15:10:07 - [TEST_STEP][PASSED] - return searchResult: Object 'SearchResult' is visible
+
+2020-02-23 15:10:34 - [MESSAGE][PASSED] - Object 'SearchResult' is visible
+
+2020-02-23 15:10:34 - [TEST_STEP][PASSED] - click(searchResultByTextAndSection("api", "Directive")): null
+
+2020-02-23 15:10:34 - [TEST_STEP][PASSED] - xpathString = //div[contains(@class,"search-area")][h3[contains(.,"$section")]]//a[contains(@class,"search-result-item")]/span[.="$result"]: null
+
+2020-02-23 15:10:34 - [TEST_STEP][PASSED] - searchResult = new com.kms.katalon.core.testobject.TestObject(SearchResult): null
+
+2020-02-23 15:10:34 - [TEST_STEP][PASSED] - searchResult.addProperty("xpath", EQUALS, xpathString): null
+
+2020-02-23 15:10:34 - [TEST_STEP][PASSED] - return searchResult: Object: 'SearchResult' is clicked on
+
+2020-02-23 15:10:35 - [MESSAGE][PASSED] - Object: 'SearchResult' is clicked on
+
+2020-02-23 15:10:35 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), directive, false): Actual text 'https://angular.io/api/core/Directive' and expected text 'https://angular.io/api/core/Directive' are matched 
+
+2020-02-23 15:10:35 - [MESSAGE][PASSED] - Current window's url is: 'https://angular.io/api/core/Directive'
+
+2020-02-23 15:10:35 - [MESSAGE][PASSED] - Actual text 'https://angular.io/api/core/Directive' and expected text 'https://angular.io/api/core/Directive' are matched 
+
+2020-02-23 15:10:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("AngularAPIPages/PageTitle"), "Directive"): Actual text and expected text of test object 'Object Repository/AngularAPIPages/PageTitle' are matched.
+
+2020-02-23 15:10:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AngularAPIPages/PageTitle' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-3" time="4.816" classname="Test Cases/TC-3" status="PASSED">
+         <system-out><![CDATA[2020-02-23 15:10:41 - [TEST_CASE][PASSED] - Test Cases/TC-3: Test Cases/TC-3
+
+2020-02-23 15:10:41 - [TEST_STEP][PASSED] - navigateToUrl(forms): Navigate to 'https://getbootstrap.com/docs/4.4/components/forms' successfully
+
+2020-02-23 15:10:44 - [MESSAGE][PASSED] - Navigate to 'https://getbootstrap.com/docs/4.4/components/forms' successfully
+
+2020-02-23 15:10:44 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "Forms · Bootstrap", false): Actual text 'Forms · Bootstrap' and expected text 'Forms · Bootstrap' are matched 
+
+2020-02-23 15:10:44 - [MESSAGE][PASSED] - Current window's title is: 'Forms · Bootstrap'
+
+2020-02-23 15:10:44 - [MESSAGE][PASSED] - Actual text 'Forms · Bootstrap' and expected text 'Forms · Bootstrap' are matched 
+
+2020-02-23 15:10:44 - [TEST_STEP][PASSED] - verifyElementNotInViewport(findTestObject("Bootstrap/ReadonlyInput"), 0): Object 'Object Repository/Bootstrap/ReadonlyInput' is present and NOT visible in viewport
+
+2020-02-23 15:10:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/ReadonlyInput' is present and NOT visible in viewport
+
+2020-02-23 15:10:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Bootstrap/ReadonlyInput"), 0): Scroll to object 'Object Repository/Bootstrap/ReadonlyInput' successfully
+
+2020-02-23 15:10:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Bootstrap/ReadonlyInput' successfully
+
+2020-02-23 15:10:44 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Bootstrap/ReadonlyInput"), 0): Object 'Object Repository/Bootstrap/ReadonlyInput' is present and visible in viewport
+
+2020-02-23 15:10:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/ReadonlyInput' is present and visible in viewport
+
+2020-02-23 15:10:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Bootstrap/ReadonlyInput"), ""): Actual text and expected text of test object 'Object Repository/Bootstrap/ReadonlyInput' are matched.
+
+2020-02-23 15:10:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Bootstrap/ReadonlyInput' are matched.
+
+2020-02-23 15:10:45 - [TEST_STEP][PASSED] - click(findTestObject("Bootstrap/ReadonlyInput")): Object: 'Object Repository/Bootstrap/ReadonlyInput' is clicked on
+
+2020-02-23 15:10:45 - [MESSAGE][ERROR] - The target for mouse interaction is not in the browser's viewport and cannot be brought into that viewport.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'EPHUDEBW0132', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 44.18362.449.0, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6A23E4BB-E849-4613-AF42-1792E65B5274
+
+2020-02-23 15:10:45 - [MESSAGE][ERROR] - The target for mouse interaction is not in the browser's viewport and cannot be brought into that viewport.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'EPHUDEBW0132', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 44.18362.449.0, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6A23E4BB-E849-4613-AF42-1792E65B5274
+
+2020-02-23 15:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Bootstrap/ReadonlyInput' is clicked on
+
+2020-02-23 15:10:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Bootstrap/ReadonlyInput"), "Readonly?"): Keys 'Readonly?' sent to object: 'Object Repository/Bootstrap/ReadonlyInput'
+
+2020-02-23 15:10:46 - [MESSAGE][PASSED] - Keys 'Readonly?' sent to object: 'Object Repository/Bootstrap/ReadonlyInput'
+
+2020-02-23 15:10:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Bootstrap/ReadonlyInput"), ""): Actual text and expected text of test object 'Object Repository/Bootstrap/ReadonlyInput' are matched.
+
+2020-02-23 15:10:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Bootstrap/ReadonlyInput' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-5" time="2.022" classname="Test Cases/TC-5" status="PASSED">
+         <system-out><![CDATA[2020-02-23 15:10:46 - [TEST_CASE][PASSED] - Test Cases/TC-5: Test Cases/TC-5
+
+2020-02-23 15:10:46 - [TEST_STEP][PASSED] - navigateToUrl(checkboxes): Navigate to 'https://getbootstrap.com/docs/4.4/components/forms/#checkboxes-and-radios' successfully
+
+2020-02-23 15:10:46 - [MESSAGE][PASSED] - Navigate to 'https://getbootstrap.com/docs/4.4/components/forms/#checkboxes-and-radios' successfully
+
+2020-02-23 15:10:46 - [TEST_STEP][PASSED] - verifyElementClickable(radioButtonByIDNumber(1)): null
+
+2020-02-23 15:10:46 - [TEST_STEP][PASSED] - cssString = input#exampleRadios$number: null
+
+2020-02-23 15:10:46 - [TEST_STEP][PASSED] - radioButton = new com.kms.katalon.core.testobject.TestObject(RadioButton): null
+
+2020-02-23 15:10:46 - [TEST_STEP][PASSED] - radioButton.addProperty("css", EQUALS, cssString): null
+
+2020-02-23 15:10:46 - [TEST_STEP][PASSED] - return radioButton: Object 'RadioButton' is clickable
+
+2020-02-23 15:10:46 - [MESSAGE][PASSED] - Object 'RadioButton' is clickable
+
+2020-02-23 15:10:46 - [TEST_STEP][PASSED] - verifyElementNotClickable(radioButtonByIDNumber(3)): null
+
+2020-02-23 15:10:46 - [TEST_STEP][PASSED] - cssString = input#exampleRadios$number: null
+
+2020-02-23 15:10:46 - [TEST_STEP][PASSED] - radioButton = new com.kms.katalon.core.testobject.TestObject(RadioButton): null
+
+2020-02-23 15:10:46 - [TEST_STEP][PASSED] - radioButton.addProperty("css", EQUALS, cssString): null
+
+2020-02-23 15:10:46 - [TEST_STEP][PASSED] - return radioButton: Object 'RadioButton' is NOT clickable
+
+2020-02-23 15:10:47 - [MESSAGE][PASSED] - Object 'RadioButton' is NOT clickable
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - verifyElementChecked(radioButtonByIDNumber(1), 0): null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - cssString = input#exampleRadios$number: null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - radioButton = new com.kms.katalon.core.testobject.TestObject(RadioButton): null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - radioButton.addProperty("css", EQUALS, cssString): null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - return radioButton: Object 'RadioButton' is checked
+
+2020-02-23 15:10:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:47 - [MESSAGE][PASSED] - Object 'RadioButton' is checked
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - verifyElementNotChecked(radioButtonByIDNumber(2), 0): null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - cssString = input#exampleRadios$number: null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - radioButton = new com.kms.katalon.core.testobject.TestObject(RadioButton): null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - radioButton.addProperty("css", EQUALS, cssString): null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - return radioButton: Object 'RadioButton' is not checked
+
+2020-02-23 15:10:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:47 - [MESSAGE][PASSED] - Object 'RadioButton' is not checked
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - click(radioButtonByIDNumber(2)): null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - cssString = input#exampleRadios$number: null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - radioButton = new com.kms.katalon.core.testobject.TestObject(RadioButton): null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - radioButton.addProperty("css", EQUALS, cssString): null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - return radioButton: Object: 'RadioButton' is clicked on
+
+2020-02-23 15:10:47 - [MESSAGE][PASSED] - Object: 'RadioButton' is clicked on
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - verifyElementNotChecked(radioButtonByIDNumber(1), 0): null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - cssString = input#exampleRadios$number: null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - radioButton = new com.kms.katalon.core.testobject.TestObject(RadioButton): null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - radioButton.addProperty("css", EQUALS, cssString): null
+
+2020-02-23 15:10:47 - [TEST_STEP][PASSED] - return radioButton: Object 'RadioButton' is not checked
+
+2020-02-23 15:10:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:48 - [MESSAGE][PASSED] - Object 'RadioButton' is not checked
+
+2020-02-23 15:10:48 - [TEST_STEP][PASSED] - verifyElementChecked(radioButtonByIDNumber(2), 0): null
+
+2020-02-23 15:10:48 - [TEST_STEP][PASSED] - cssString = input#exampleRadios$number: null
+
+2020-02-23 15:10:48 - [TEST_STEP][PASSED] - radioButton = new com.kms.katalon.core.testobject.TestObject(RadioButton): null
+
+2020-02-23 15:10:48 - [TEST_STEP][PASSED] - radioButton.addProperty("css", EQUALS, cssString): null
+
+2020-02-23 15:10:48 - [TEST_STEP][PASSED] - return radioButton: Object 'RadioButton' is checked
+
+2020-02-23 15:10:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:48 - [MESSAGE][PASSED] - Object 'RadioButton' is checked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-4" time="1.535" classname="Test Cases/TC-4" status="PASSED">
+         <system-out><![CDATA[2020-02-23 15:10:48 - [TEST_CASE][PASSED] - Test Cases/TC-4: Test Cases/TC-4
+
+2020-02-23 15:10:48 - [TEST_STEP][PASSED] - navigateToUrl(checkboxes): Navigate to 'https://getbootstrap.com/docs/4.4/components/forms/#checkboxes-and-radios' successfully
+
+2020-02-23 15:10:48 - [MESSAGE][PASSED] - Navigate to 'https://getbootstrap.com/docs/4.4/components/forms/#checkboxes-and-radios' successfully
+
+2020-02-23 15:10:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Bootstrap/DefaultCheckbox")): Object 'Object Repository/Bootstrap/DefaultCheckbox' is clickable
+
+2020-02-23 15:10:48 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/DefaultCheckbox' is clickable
+
+2020-02-23 15:10:48 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Bootstrap/DisabledCheckbox")): Object 'Object Repository/Bootstrap/DisabledCheckbox' is NOT clickable
+
+2020-02-23 15:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/DisabledCheckbox' is NOT clickable
+
+2020-02-23 15:10:49 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Bootstrap/DefaultCheckbox"), 0): Object 'Object Repository/Bootstrap/DefaultCheckbox' is not checked
+
+2020-02-23 15:10:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/DefaultCheckbox' is not checked
+
+2020-02-23 15:10:49 - [TEST_STEP][PASSED] - check(findTestObject("Bootstrap/DefaultCheckbox")): Object 'Object Repository/Bootstrap/DefaultCheckbox' is checked
+
+2020-02-23 15:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/DefaultCheckbox' is checked
+
+2020-02-23 15:10:49 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Bootstrap/DefaultCheckbox"), 0): Object 'Object Repository/Bootstrap/DefaultCheckbox' is checked
+
+2020-02-23 15:10:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/DefaultCheckbox' is checked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-6" time="2.025" classname="Test Cases/TC-6" status="PASSED">
+         <system-out><![CDATA[2020-02-23 15:10:49 - [TEST_CASE][PASSED] - Test Cases/TC-6: Test Cases/TC-6
+
+2020-02-23 15:10:50 - [TEST_STEP][PASSED] - navigateToUrl(disabled): Navigate to 'https://getbootstrap.com/docs/4.4/components/buttons/#disabled-state' successfully
+
+2020-02-23 15:10:50 - [MESSAGE][PASSED] - Navigate to 'https://getbootstrap.com/docs/4.4/components/buttons/#disabled-state' successfully
+
+2020-02-23 15:10:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Bootstrap/PrimaryButton"), 0): Object 'Object Repository/Bootstrap/PrimaryButton' is present
+
+2020-02-23 15:10:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/PrimaryButton' is present
+
+2020-02-23 15:10:51 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Bootstrap/PrimaryButton")): Object 'Object Repository/Bootstrap/PrimaryButton' is NOT clickable
+
+2020-02-23 15:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/PrimaryButton' is NOT clickable
+
+2020-02-23 15:10:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_UP)): Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2020-02-23 15:10:51 - [MESSAGE][WARNING] - Test object id is null
+
+2020-02-23 15:10:51 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2020-02-23 15:10:51 - [MESSAGE][PASSED] - Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2020-02-23 15:10:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Bootstrap/PrimaryLink")): Object 'Object Repository/Bootstrap/PrimaryLink' is clickable
+
+2020-02-23 15:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/PrimaryLink' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-7" time="5.433" classname="Test Cases/TC-7" status="PASSED">
+         <system-out><![CDATA[2020-02-23 15:10:51 - [TEST_CASE][PASSED] - Test Cases/TC-7: Test Cases/TC-7
+
+2020-02-23 15:10:52 - [TEST_STEP][PASSED] - navigateToUrl(formControls): Navigate to 'https://getbootstrap.com/docs/4.4/components/forms/#form-controls' successfully
+
+2020-02-23 15:10:52 - [MESSAGE][PASSED] - Navigate to 'https://getbootstrap.com/docs/4.4/components/forms/#form-controls' successfully
+
+2020-02-23 15:10:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Bootstrap/ExampleSelect")): Object 'Object Repository/Bootstrap/ExampleSelect' is visible
+
+2020-02-23 15:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/ExampleSelect' is visible
+
+2020-02-23 15:10:53 - [TEST_STEP][PASSED] - verifyElementHasAttribute(findTestObject("Bootstrap/MultipleSelect"), "multiple", 0): Object 'Object Repository/Bootstrap/MultipleSelect' has attribute 'multiple'
+
+2020-02-23 15:10:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/MultipleSelect' has attribute 'multiple'
+
+2020-02-23 15:10:53 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Bootstrap/ExampleSelect"), "1", false, 0): All options with label '1' are selected in object 'Object Repository/Bootstrap/ExampleSelect' 
+
+2020-02-23 15:10:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:54 - [MESSAGE][PASSED] - All options with label '1' are selected in object 'Object Repository/Bootstrap/ExampleSelect' 
+
+2020-02-23 15:10:54 - [TEST_STEP][PASSED] - verifyOptionNotPresentByLabel(findTestObject("Bootstrap/ExampleSelect"), "hello", false, 0): There is no option with label 'hello' present in object 'Object Repository/Bootstrap/ExampleSelect' 
+
+2020-02-23 15:10:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:55 - [MESSAGE][PASSED] - There is no option with label 'hello' present in object 'Object Repository/Bootstrap/ExampleSelect' 
+
+2020-02-23 15:10:55 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Bootstrap/ExampleSelect"), "2", false, 0): 1 option(s) with label '2' is/are present in object 'Object Repository/Bootstrap/ExampleSelect' 
+
+2020-02-23 15:10:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:55 - [MESSAGE][PASSED] - 1 option(s) with label '2' is/are present in object 'Object Repository/Bootstrap/ExampleSelect' 
+
+2020-02-23 15:10:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Bootstrap/ExampleSelect"), "2", false): All options with label '2' are selected in object 'Object Repository/Bootstrap/ExampleSelect' 
+
+2020-02-23 15:10:55 - [MESSAGE][PASSED] - All options with label '2' are selected in object 'Object Repository/Bootstrap/ExampleSelect' 
+
+2020-02-23 15:10:55 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Bootstrap/ExampleSelect"), "2", false, 0): All options with label '2' are selected in object 'Object Repository/Bootstrap/ExampleSelect' 
+
+2020-02-23 15:10:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 15:10:56 - [MESSAGE][PASSED] - All options with label '2' are selected in object 'Object Repository/Bootstrap/ExampleSelect' 
+
+2020-02-23 15:10:56 - [TEST_STEP][PASSED] - verifyEqual(getNumberOfTotalOption(findTestObject("Bootstrap/ExampleSelect")), 5): Actual object '5' and expected object '5' are equal
+
+2020-02-23 15:10:57 - [MESSAGE][PASSED] - 5 options of object 'Object Repository/Bootstrap/ExampleSelect' counted
+
+2020-02-23 15:10:57 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-23 15:09:56 - [TEST_SUITE][PASSED] - TestCasesForEvaluation: Test Cases/TC-7]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestCasesForEvaluation" time="13.807" tests="1" failures="0" errors="0">
+   <testsuite name="TestCasesForEvaluation" tests="1" failures="0" errors="0" time="13.807" timestamp="2020-02-23 13:11:47" hostname="Dora_Vereb - EPHUDEBW0132.budapest.epam.com" id="Test Suites/TestCasesForEvaluation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dora_vereb\\Katalon Studio\\Web testing evaluation\\Reports\\20200223_131144\\TestCasesForEvaluation\\20200223_131144"/>
+         <property name="logFiles" value="C:\\Users\\dora_vereb\\Katalon Studio\\Web testing evaluation\\Reports\\20200223_131144\\TestCasesForEvaluation\\20200223_131144\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dora_Vereb - EPHUDEBW0132.budapest.epam.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 73.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="c9e33e9c-ae87-4ddc-a18f-df06a978f2e2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC-6" time="11.237" classname="Test Cases/TC-6" status="PASSED">
+         <system-out><![CDATA[2020-02-23 13:11:47 - [TEST_CASE][PASSED] - Test Cases/TC-6: Test Cases/TC-6
+
+2020-02-23 13:11:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-23 13:11:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-23 13:11:48 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-23 13:11:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-23 13:11:55 - [TEST_STEP][PASSED] - navigateToUrl(disabled): Navigate to 'https://getbootstrap.com/docs/4.4/components/buttons/#disabled-state' successfully
+
+2020-02-23 13:11:57 - [MESSAGE][PASSED] - Navigate to 'https://getbootstrap.com/docs/4.4/components/buttons/#disabled-state' successfully
+
+2020-02-23 13:11:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Bootstrap/PrimaryButton"), 0): Object 'Object Repository/Bootstrap/PrimaryButton' is present
+
+2020-02-23 13:11:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 13:11:58 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/PrimaryButton' is present
+
+2020-02-23 13:11:58 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Bootstrap/PrimaryButton")): Object 'Object Repository/Bootstrap/PrimaryButton' is NOT clickable
+
+2020-02-23 13:11:58 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/PrimaryButton' is NOT clickable
+
+2020-02-23 13:11:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_UP)): Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2020-02-23 13:11:58 - [MESSAGE][WARNING] - Test object id is null
+
+2020-02-23 13:11:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2020-02-23 13:11:58 - [MESSAGE][PASSED] - Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2020-02-23 13:11:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Bootstrap/PrimaryLink")): Object 'Object Repository/Bootstrap/PrimaryLink' is clickable
+
+2020-02-23 13:11:59 - [MESSAGE][PASSED] - Object 'Object Repository/Bootstrap/PrimaryLink' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-23 13:11:47 - [TEST_SUITE][PASSED] - TestCasesForEvaluation: Test Cases/TC-6]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

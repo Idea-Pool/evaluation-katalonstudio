@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestCasesForEvaluation" time="21.083" tests="1" failures="0" errors="0">
+   <testsuite name="TestCasesForEvaluation" tests="1" failures="0" errors="0" time="21.083" timestamp="2020-02-23 12:19:35" hostname="Dora_Vereb - EPHUDEBW0132.budapest.epam.com" id="Test Suites/TestCasesForEvaluation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dora_vereb\\Katalon Studio\\Web testing evaluation\\Reports\\20200223_121932\\TestCasesForEvaluation\\20200223_121932"/>
+         <property name="logFiles" value="C:\\Users\\dora_vereb\\Katalon Studio\\Web testing evaluation\\Reports\\20200223_121932\\TestCasesForEvaluation\\20200223_121932\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dora_Vereb - EPHUDEBW0132.budapest.epam.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.116"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="ee3c85aadc3d710820366a316937b8ab"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC-3" time="19.939" classname="Test Cases/TC-3" status="PASSED">
+         <system-out><![CDATA[2020-02-23 12:19:35 - [TEST_CASE][PASSED] - Test Cases/TC-3: Test Cases/TC-3
+
+2020-02-23 12:19:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-23 12:19:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-23 12:19:36 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-23 12:19:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-23 12:19:43 - [TEST_STEP][PASSED] - navigateToUrl(forms): Navigate to 'https://getbootstrap.com/docs/4.4/components/forms' successfully
+
+2020-02-23 12:19:50 - [MESSAGE][PASSED] - Navigate to 'https://getbootstrap.com/docs/4.4/components/forms' successfully
+
+2020-02-23 12:19:50 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "Forms · Bootstrap", false): Actual text 'Forms · Bootstrap' and expected text 'Forms · Bootstrap' are matched 
+
+2020-02-23 12:19:50 - [MESSAGE][PASSED] - Current window's title is: 'Forms · Bootstrap'
+
+2020-02-23 12:19:50 - [MESSAGE][PASSED] - Actual text 'Forms · Bootstrap' and expected text 'Forms · Bootstrap' are matched 
+
+2020-02-23 12:19:50 - [TEST_STEP][PASSED] - verifyElementNotInViewport(findTestObject("BootstrapFormPage/ReadonlyInput"), 0): Object 'Object Repository/BootstrapFormPage/ReadonlyInput' is present and NOT visible in viewport
+
+2020-02-23 12:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 12:19:50 - [MESSAGE][PASSED] - Object 'Object Repository/BootstrapFormPage/ReadonlyInput' is present and NOT visible in viewport
+
+2020-02-23 12:19:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BootstrapFormPage/ReadonlyInput"), 0): Scroll to object 'Object Repository/BootstrapFormPage/ReadonlyInput' successfully
+
+2020-02-23 12:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 12:19:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BootstrapFormPage/ReadonlyInput' successfully
+
+2020-02-23 12:19:51 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("BootstrapFormPage/ReadonlyInput"), 0): Object 'Object Repository/BootstrapFormPage/ReadonlyInput' is present and visible in viewport
+
+2020-02-23 12:19:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 12:19:51 - [MESSAGE][PASSED] - Object 'Object Repository/BootstrapFormPage/ReadonlyInput' is present and visible in viewport
+
+2020-02-23 12:19:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BootstrapFormPage/ReadonlyInput"), ""): Actual text and expected text of test object 'Object Repository/BootstrapFormPage/ReadonlyInput' are matched.
+
+2020-02-23 12:19:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BootstrapFormPage/ReadonlyInput' are matched.
+
+2020-02-23 12:19:51 - [TEST_STEP][PASSED] - click(findTestObject("BootstrapFormPage/ReadonlyInput")): Object: 'Object Repository/BootstrapFormPage/ReadonlyInput' is clicked on
+
+2020-02-23 12:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/BootstrapFormPage/ReadonlyInput' is clicked on
+
+2020-02-23 12:19:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BootstrapFormPage/ReadonlyInput"), "Readonly?"): Keys 'Readonly?' sent to object: 'Object Repository/BootstrapFormPage/ReadonlyInput'
+
+2020-02-23 12:19:55 - [MESSAGE][PASSED] - Keys 'Readonly?' sent to object: 'Object Repository/BootstrapFormPage/ReadonlyInput'
+
+2020-02-23 12:19:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BootstrapFormPage/ReadonlyInput"), ""): Actual text and expected text of test object 'Object Repository/BootstrapFormPage/ReadonlyInput' are matched.
+
+2020-02-23 12:19:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BootstrapFormPage/ReadonlyInput' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-23 12:19:35 - [TEST_SUITE][PASSED] - TestCasesForEvaluation: Test Cases/TC-3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

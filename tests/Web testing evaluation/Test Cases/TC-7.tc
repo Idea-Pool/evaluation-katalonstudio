@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking select form elements</description>
+   <name>TC-7</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d9f48e7-a376-4c57-afed-b55cf2f401b1</testCaseGuid>
+</TestCaseEntity>

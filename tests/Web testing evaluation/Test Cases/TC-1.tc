@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking landing page elements</description>
+   <name>TC-1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>916acf46-6790-4fc8-b077-54e68197ca4d</testCaseGuid>
+   <variable>
+      <defaultValue>'Getting Started with Angular: Your First App'</defaultValue>
+      <description></description>
+      <id>e6bfd0dc-0a0a-4886-a340-43b255539f3e</id>
+      <masked>false</masked>
+      <name>contentTitle</name>
+   </variable>
+</TestCaseEntity>

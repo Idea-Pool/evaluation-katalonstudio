@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestCasesForEvaluation" time="11.213" tests="1" failures="0" errors="1">
+   <testsuite name="TestCasesForEvaluation" tests="1" failures="0" errors="1" time="11.213" timestamp="2020-02-23 14:56:36" hostname="Dora_Vereb - EPHUDEBW0132.budapest.epam.com" id="Test Suites/TestCasesForEvaluation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dora_vereb\\Katalon Studio\\Web testing evaluation\\Reports\\20200223_145634\\TestCasesForEvaluation\\20200223_145634"/>
+         <property name="logFiles" value="C:\\Users\\dora_vereb\\Katalon Studio\\Web testing evaluation\\Reports\\20200223_145634\\TestCasesForEvaluation\\20200223_145634\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dora_Vereb - EPHUDEBW0132.budapest.epam.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.116"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="b3325de807f6142615da742a2ecfa9d5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC-2" time="3.733" classname="Test Cases/TC-2" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC-2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: search for class: Script1582403821652
+	at TC-2.searchResultByTextAndSection(TC-2:42)
+	at TC-2.run(TC-2:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582466194668.run(TempTestSuite1582466194668.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-23 14:56:43 - [TEST_CASE][ERROR] - Test Cases/TC-2: Test Cases/TC-2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: search for class: Script1582403821652
+	at TC-2.searchResultByTextAndSection(TC-2:42)
+	at TC-2.run(TC-2:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582466194668.run(TempTestSuite1582466194668.groovy:36)
+
+
+2020-02-23 14:56:43 - [TEST_STEP][PASSED] - navigateToUrl(homePage): Navigate to 'https://angular.io' successfully
+
+2020-02-23 14:56:44 - [MESSAGE][PASSED] - Navigate to 'https://angular.io' successfully
+
+2020-02-23 14:56:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("AngularHomePage/SearchBar")): Object 'Object Repository/AngularHomePage/SearchBar' is visible
+
+2020-02-23 14:56:45 - [MESSAGE][PASSED] - Object 'Object Repository/AngularHomePage/SearchBar' is visible
+
+2020-02-23 14:56:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("AngularHomePage/SearchBar"), ""): Actual text and expected text of test object 'Object Repository/AngularHomePage/SearchBar' are matched.
+
+2020-02-23 14:56:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AngularHomePage/SearchBar' are matched.
+
+2020-02-23 14:56:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("AngularHomePage/SearchBar"), "placeholder", "Search", 0): Object 'Object Repository/AngularHomePage/SearchBar' has attribute 'placeholder' with value 'Search'
+
+2020-02-23 14:56:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-23 14:56:46 - [MESSAGE][PASSED] - Object 'Object Repository/AngularHomePage/SearchBar' has attribute 'placeholder' with value 'Search'
+
+2020-02-23 14:56:46 - [TEST_STEP][PASSED] - click(findTestObject("AngularHomePage/SearchBar")): Object: 'Object Repository/AngularHomePage/SearchBar' is clicked on
+
+2020-02-23 14:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AngularHomePage/SearchBar' is clicked on
+
+2020-02-23 14:56:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("AngularHomePage/SearchBar"), "directive"): Keys 'directive' sent to object: 'Object Repository/AngularHomePage/SearchBar'
+
+2020-02-23 14:56:46 - [MESSAGE][PASSED] - Keys 'directive' sent to object: 'Object Repository/AngularHomePage/SearchBar'
+
+2020-02-23 14:56:46 - [TEST_STEP][PASSED] - verifyElementVisible(searchResultByTextAndSection("api", "Directive")): null
+
+2020-02-23 14:56:46 - [TEST_STEP][PASSED] - xpathString = ]: null]]></system-out>
+         <system-err><![CDATA[2020-02-23 14:56:43 - [TEST_CASE][ERROR] - Test Cases/TC-2: Test Cases/TC-2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: search for class: Script1582403821652
+	at TC-2.searchResultByTextAndSection(TC-2:42)
+	at TC-2.run(TC-2:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582466194668.run(TempTestSuite1582466194668.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-23 14:56:36 - [TEST_SUITE][ERROR] - TestCasesForEvaluation: Test Cases/TC-2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: search for class: Script1582403821652
+	at TC-2.searchResultByTextAndSection(TC-2:42)
+	at TC-2.run(TC-2:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582466194668.run(TempTestSuite1582466194668.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-02-23 14:56:36 - [TEST_SUITE][ERROR] - TestCasesForEvaluation: Test Cases/TC-2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: search for class: Script1582403821652
+	at TC-2.searchResultByTextAndSection(TC-2:42)
+	at TC-2.run(TC-2:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582466194668.run(TempTestSuite1582466194668.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
