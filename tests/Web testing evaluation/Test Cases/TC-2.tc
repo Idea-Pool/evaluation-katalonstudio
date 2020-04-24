@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Checking search field on landing page</description>
-   <name>TC-2</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>254f17e5-c54d-438d-84dd-a5ae14328683</testCaseGuid>
-</TestCaseEntity>
