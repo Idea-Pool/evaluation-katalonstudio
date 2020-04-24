@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking button form elements</description>
+   <name>TC-6</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>242772ae-6a87-4723-90aa-b0cd014334e6</testCaseGuid>
+</TestCaseEntity>

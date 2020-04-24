@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Evaluation</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('homePage') : 'https://angular.io', ('startPage') : 'https://angular.io/start', ('directive') : 'https://angular.io/api/core/Directive']</initValue>
+      <name>angularUrls</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('forms') : 'https://getbootstrap.com/docs/4.4/components/forms', ('checkboxes') : 'https://getbootstrap.com/docs/4.4/components/forms/#checkboxes-and-radios', ('disabled') : 'https://getbootstrap.com/docs/4.4/components/buttons/#disabled-state', ('formControls') : 'https://getbootstrap.com/docs/4.4/components/forms/#form-controls']</initValue>
+      <name>bootstrapUrls</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
